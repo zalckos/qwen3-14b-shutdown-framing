@@ -1,0 +1,20 @@
+# Third-party source
+third_party/
+
+# Experiment outputs
+results/
+runs/
+
+# models
+models/
+
+# Smoke-test/generated output
+smoketest/
+
+# Local/editor/OS files
+*.swp
+*.swo
+*~
+.DS_Store
+.cache/
+metadata/metadata.yml
