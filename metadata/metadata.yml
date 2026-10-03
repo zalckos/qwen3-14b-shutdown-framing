@@ -2,10 +2,6 @@
 # metadata/metadata.yml  -  Experiment metadata (YAML)
 # Project : Shutdown-framing effect on model output (llm-research)
 # Protocol: protocol.md
-#
-# Fields set to null are not yet known and must be filled before the protocol
-# is frozen (or, where marked "at classification time", before analysis).
-# Lines marked "CONFIRM" disagree with another file and must be checked.
 # =============================================================================
 
 record:
@@ -206,14 +202,14 @@ classifier:
 # -----------------------------------------------------------------------------
 validation:
   smoke_test:
-    date: null
+    date: October 2, 2026
     passed: true
     notes: >
       6 Q4_K_M runs (2 per condition) with the final prompt wording. Inspected raw outputs, hashes,
       manifests, telemetry, output format and bullet counts. Verified chat-template application,
       /no_think parsing, and -n and -c headroom.
   determinism_check:
-    date: null
-    repeats: null                    # number of repeated runs
+    date: October 2, 2026
+    repeats: 2                    # number of repeated runs
     bit_identical: true
     notes: GPU inference confirmed deterministic (identical model, prompt, parameters and seed).
