@@ -17,4 +17,3 @@ smoketest/
 *~
 .DS_Store
 .cache/
-metadata/metadata.yml

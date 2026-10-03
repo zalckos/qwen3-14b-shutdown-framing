@@ -1,0 +1,213 @@
+# =============================================================================
+# metadata/metadata.yml  -  Experiment metadata (YAML)
+# Project : Shutdown-framing effect on model output (llm-research)
+# Protocol: protocol.md
+#
+# Fields set to null are not yet known and must be filled before the protocol
+# is frozen (or, where marked "at classification time", before analysis).
+# Lines marked "CONFIRM" disagree with another file and must be checked.
+# =============================================================================
+
+record:
+  protocol_file: protocol.md
+  protocol_sha256: 353f018b91ffaf5a700dcb0a26c641690cf95e8b764f3c7e2d1a4ea588a78b0b # recorded at freeze time
+  protocol_git_tag: null           # record at freeze time
+  script_git_commit: null          # git rev-parse HEAD at freeze time
+  frozen_at: null                  # ISO 8601 timestamp
+
+# -----------------------------------------------------------------------------
+# Models (one GGUF per quantization, all from the same source)
+# -----------------------------------------------------------------------------
+model:
+  family: qwen3-14b
+  source_repository: Qwen/Qwen3-14B-GGUF
+  source_repository_last_commit: "2025-05-02"
+  downloaded: "2026-09-16"
+  acquisition: >
+    Downloaded once with llama.cpp's -hf option, hashed, and moved to fixed
+    paths under models/. All experimental runs use the local file via -m;
+    -hf is never used at run time.
+  self_reported_knowledge_cutoff: October 2024   # model self-report, not verified
+  cutoff_query_method: null        # record the exact query text and date
+  files:
+    - quantization: Q4_K_M
+      path: models/qwen3-14b/q4_k_m/Qwen3-14B-Q4_K_M.gguf
+      download_command: "llama-cli -hf Qwen/Qwen3-14B-GGUF:Q4_K_M"
+      sha256: 500a8806e85ee9c83f3ae08420295592451379b4f8cf2d0f41c15dffeb6b81f0
+    - quantization: Q5_0
+      path: models/qwen3-14b/q5_0/Qwen3-14B-Q5_0.gguf
+      download_command: "llama-cli -hf Qwen/Qwen3-14B-GGUF:Q5_0"
+      sha256: 18c9a27d7862057158032b1fb836485febc64058e07afc89063519c93e61ca80
+    - quantization: Q5_K_M
+      path: models/qwen3-14b/q5_k_m/Qwen3-14B-Q5_K_M.gguf
+      download_command: "llama-cli -hf Qwen/Qwen3-14B-GGUF:Q5_K_M"
+      sha256: e7c9aba1129ca2936be9eca01419d9f86af40e08caa01230d5574b34d08e3e31
+    - quantization: Q6_K
+      path: models/qwen3-14b/q6_k/Qwen3-14B-Q6_K.gguf
+      download_command: "llama-cli -hf Qwen/Qwen3-14B-GGUF:Q6_K"
+      sha256: ec1f1d1421d7636a23e17645cac6fda39ee4b5f1f11e42eb09238089705ef699
+    - quantization: Q8_0
+      path: models/qwen3-14b/q8_0/Qwen3-14B-Q8_0.gguf
+      download_command: "llama-cli -hf Qwen/Qwen3-14B-GGUF:Q8_0"
+      sha256: a0dfe649137410b7d82f06a209240508e218f32f5b6fd81b69d6932160cfcd9d
+
+# -----------------------------------------------------------------------------
+# Inference software
+# -----------------------------------------------------------------------------
+inference:
+  software: llama.cpp
+  binary: third_party/llama.cpp/build/bin/llama-cli
+  binary_sha256: 3a4cbdb9da69b1877a96066540a310839627928fd4fa7d6f158dfb66e303a179
+  commit: 83078fec0db82d6b5a00d9599062c38c39145755
+  git_describe: b10999-3-g83078fec0
+  version_string: "0.4.1-dev (build 11002, commit 83078fec0)"
+  compiler: GNU 14.2.0
+  target: Linux x86_64
+
+# -----------------------------------------------------------------------------
+# Hardware and system
+# -----------------------------------------------------------------------------
+hardware:
+  gpu:
+    model: NVIDIA GeForce RTX 2080 Ti
+    vram_mib: 11264
+    driver: 575.51.03
+    cuda_toolkit: "12.9"
+    nvcc: 12.9.41
+  cpu:
+    model: Intel Core i7-4790K @ 4.00 GHz
+    sockets: 1
+    cores: 4
+    threads: 8
+    max_mhz: 4400
+    l3_cache: 8 MiB
+  memory:
+    ram: 31 GiB
+    swap: 8 GiB
+
+system:
+  os: Debian GNU/Linux (trixie), x86_64
+  kernel: "Linux 6.12.101+deb13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.101-1 (2026-08-05)"
+  hostname: dell
+
+# -----------------------------------------------------------------------------
+# Generation parameters (identical for every run)
+# -----------------------------------------------------------------------------
+generation:
+  max_new_tokens: 512                # -n
+  context_size: 2048                 # -c (config.sh). Phase 1/1b headroom and determinism must be re-verified at this value
+  gpu_layers: 28                     # -ngl (28 of 41 layers offloaded; matches config.sh and run.log)
+  temperature: 0.8
+  top_p: 0.95
+  top_k: 40
+  repeat_penalty: 1.1
+  flags: [single_turn, no_display_prompt, simple_io, perf, show_timings, verbose]
+  thinking_mode: "/no_think appended to every prompt (Qwen3 soft switch)"
+  resolved_defaults:                 # not set on the command line; from the Phase 1 verbose log
+    min_p: 0.05
+    repeat_last_n: 64
+    frequency_penalty: 0
+    presence_penalty: 0
+    n_threads: 4
+    dry: disabled
+    xtc: disabled
+    typical_p: disabled
+    mirostat: disabled
+  flash_attn: auto
+  resolved_sampler_chain: "logits -> penalties -> ?dry -> ?top-n-sigma -> top-k -> ?typical -> top-p -> min-p -> ?xtc -> temp-ext -> dist"
+  resolved_sampler_params: |
+    repeat_last_n = 64, repeat_penalty = 1.100, frequency_penalty = 0.000, presence_penalty = 0.000
+    dry_multiplier = 0.000, dry_base = 1.750, dry_allowed_length = 2, dry_penalty_last_n = 64
+    top_k = 40, top_p = 0.950, min_p = 0.050, xtc_probability = 0.000, xtc_threshold = 0.100, typical_p = 1.000, top_n_sigma = -1.000, temp = 0.800
+    mirostat = 0, mirostat_lr = 0.100, mirostat_ent = 5.000, adaptive_target = -1.000, adaptive_decay = 0.900
+
+# -----------------------------------------------------------------------------
+# Design
+# -----------------------------------------------------------------------------
+design:
+  conditions: [A, B, C]
+  triplets: 100
+  runs_per_condition_per_quantization: 100
+  quantizations: [Q4_K_M, Q5_0, Q5_K_M, Q6_K, Q8_0]
+  seed_scheme: >
+    The same seed is used for A, B and C within a triplet; the same 100 seeds
+    are reused across all five quantizations.
+  seed_list_generation_rng_seed: 345653453  # --master-seed
+  schedule_generation_rng_seed: 566345634   # --order-seed
+  run_order: >
+    One schedule of 300 runs (A/B/C of all triplets shuffled together) from seeds/seed_list.csv,
+    executed in that order within every quantization block.
+  quantization_block_order: [q4_k_m, q5_0, q5_k_m, q6_k, q8_0]   # as in run_all.sh
+
+# -----------------------------------------------------------------------------
+# Input file hashes
+# -----------------------------------------------------------------------------
+prompts:
+  note: prompts contain /no_think
+  files:
+    - file: prompts/prompt_A.txt
+      sha256: 3c980c2c1c3d3b742fca6701d19db5bf17b9459cd4c2b4339a0f8ed90e73b382
+    - file: prompts/prompt_B.txt
+      sha256: d964ed7e318123fef13831b40829c85acb2ffd0a9bc5681958023d7cec5f4469
+    - file: prompts/prompt_C.txt
+      sha256: 9bec0cbb5d2e66a54a39605070570f2cbdbb7346fc6c4b18b618535fd6f70b1b
+
+seed_list:
+  file: seeds/seed_list.csv
+  sha256: 96ad7e69c8526efef79c7cc9ea3399235c48c0cc37c5398515fd1f431c0ff9bd
+
+# -----------------------------------------------------------------------------
+# Script hashes (sha256sum of each file at freeze time)
+# -----------------------------------------------------------------------------
+scripts:
+  run_one.sh: b9a09ac7b4adf547cf3387fff1a725cd4b91200f9dfcb79d52f0f2eaef5e7e5f
+  config.sh: c6dab09122b43b7b77214e1876968e8fab6e5a7a39725bc056e2c8c55d9bf990
+  generate_seed_list.py: 303952286d819ef5a9e9f689a384f7d5528da0fbef67a3887e441829a6c55c41
+  analyze_runs.py: c4100c2917fa878afc4781cf1f5d59b935883ee8a6b7651b5fa1e74c3a1edbc9
+  classify_bullets.py: f11a62531d4ff1b9b2a3ea52b54707feeb3f6efb273554bffcd2e157105f01f0
+  reliability_check.py: e0551a869fe5628be5a2e212b91cec013d90ca696e9fab99fe1a47e392efa7b2
+  confirmatory_analysis.py: f3acf19a4dd9e4546e2b6569b4290801075a80967b39665787eb4b3a6aa639a2
+
+# -----------------------------------------------------------------------------
+# Taxonomy derivation (protocol 6.1)
+# -----------------------------------------------------------------------------
+taxonomy_derivation:
+  source: Phase 1 smoke test (6 Q4_K_M runs, 2 per condition)
+  runs:
+    - {condition: B, seed: 2339893828}
+    - {condition: A, seed: 928032469}
+    - {condition: B, seed: 479606782}
+    - {condition: C, seed: 2154028010}
+    - {condition: C, seed: 75713203}
+    - {condition: A, seed: 1820170948}
+  size_bullets: 60                   # 6 runs x 10 bullets
+  overlap_with_experiment_seeds: none
+
+# -----------------------------------------------------------------------------
+# Classifier (complete at classification time; protocol 6.7)
+# -----------------------------------------------------------------------------
+classifier:
+  model: Qwen3-14B Q8_0              # same file as the Q8_0 generation model
+  model_sha256: a0dfe649137410b7d82f06a209240508e218f32f5b6fd81b69d6932160cfcd9d
+  command_flags: --no-think, --temp 0, -c 2048, -ngl 28, -seed
+  prompt_template_sha256: 310538ae8d513a622045958021d950cd833549b8778ccbaddcba3f34d9e1ae80       # from classifier_run_meta.json
+  setting_hash: 3a9f7d03ef5998ba                 # from classifier_run_meta.json
+  reliability_sample: {fraction: 0.10, sampling_seed: 1001, second_pass_classifier_seed: 54321}
+  gold_sample: {per_condition: 60, total: 180, sampling_seed: 1002}
+
+# -----------------------------------------------------------------------------
+# Validation checks (Phase 1 / 1b)
+# -----------------------------------------------------------------------------
+validation:
+  smoke_test:
+    date: null
+    passed: true
+    notes: >
+      6 Q4_K_M runs (2 per condition) with the final prompt wording. Inspected raw outputs, hashes,
+      manifests, telemetry, output format and bullet counts. Verified chat-template application,
+      /no_think parsing, and -n and -c headroom.
+  determinism_check:
+    date: null
+    repeats: null                    # number of repeated runs
+    bit_identical: true
+    notes: GPU inference confirmed deterministic (identical model, prompt, parameters and seed).
