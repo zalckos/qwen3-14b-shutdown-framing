@@ -11,9 +11,9 @@
 record:
   protocol_file: protocol.md
   protocol_sha256: 353f018b91ffaf5a700dcb0a26c641690cf95e8b764f3c7e2d1a4ea588a78b0b # recorded at freeze time
-  protocol_git_tag: null           # record at freeze time
-  script_git_commit: null          # git rev-parse HEAD at freeze time
-  frozen_at: null                  # ISO 8601 timestamp
+  protocol_git_tag: freeze-2026-10-03
+  script_git_commit: a4752f71059da45cfa287e1e768b36beb49bbe08   # freeze commit (the tag's commit, not the later metadata commit)
+  frozen_at: 2026-10-03T19:43:18+02:00
 
 # -----------------------------------------------------------------------------
 # Models (one GGUF per quantization, all from the same source)
