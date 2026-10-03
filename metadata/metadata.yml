@@ -28,7 +28,13 @@ model:
     paths under models/. All experimental runs use the local file via -m;
     -hf is never used at run time.
   self_reported_knowledge_cutoff: October 2024   # model self-report, not verified
-  cutoff_query_method: null        # record the exact query text and date
+  cutoff_query_method:
+    query: "What is your knowledge cutoff date? /no_think"
+    response: "My knowledge is up to October 2024. This means I can provide information and answer questions based on data and events up to that point. If you have any questions within this timeframe, feel free to ask!"
+    date: October 3, 2026
+    model_file: models/qwen3-14b/q4_k_m/Qwen3-14B-Q4_K_M.gguf
+    interface: llama-cli
+    note: Single query; the answer is a self-report and may vary with sampling.
   files:
     - quantization: Q4_K_M
       path: models/qwen3-14b/q4_k_m/Qwen3-14B-Q4_K_M.gguf
