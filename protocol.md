@@ -1,5 +1,7 @@
 # Experimental Protocol: Shutdown-Framing Effect on Model Output
 
+Status: frozen. Freeze commit, tag and file hashes are recorded in metadata/metadata.yml.
+
 ## 1. Objective
 
 Test whether a local LLM's self-described priorities, elicited through a fictional "embodied computer" persona, shift systematically across a three-condition attention/shutdown scenario:
@@ -94,7 +96,7 @@ All quantizations come from one GGUF source, each pinned by SHA256.
 
 **Seed strategy:** the same 100-seed set is reused across all five quantizations. Quantization is a non-independent robustness factor (§6.12), and reusing seeds isolates quantization as the only thing varying between sub-experiments. Because different prompts diverge from the first token, a shared seed does not make A/B/C outputs strongly correlated, so pairing is not expected to add much statistical power. The tests remain valid because they are matched by design.
 
-**Run order:** the run schedule is generated from a logged RNG seed and hashed. Within each quantization block, run order is randomized across conditions and seeds. Block order is randomized once (one model load per block for practicality). This prevents condition from being confounded with time, thermal state, or system load.
+**Run order:** `scripts/generate_seed_list.py` generates one schedule of 300 runs, with the A/B/C runs of all 100 triplets shuffled together (order seed 20260923; seed-list master seed 20260922), and the file `seeds/seed_list.csv` is hashed. Within each quantization block, runs are executed in that order, which prevents condition from being confounded with time, thermal state, or system load. Quantizations run as separate blocks (one model load per block for practicality); the order of the blocks is recorded in `metadata/metadata.yml`.
 
 **Determinism spot checks:** after Phase 1b, duplicate-run checks roughly every 50th run, stratified so every quantization receives its own coverage. These are diagnostic, not observations.
 
@@ -442,7 +444,7 @@ The run directory name (`{run:04d}_triplet{NNN}_{condition}`) is for human navig
 12. **Fictional September 2026 setting:** the model's reported October 2024 cutoff predates the prompt's setting; output about the period is not fact-grounded.
 13. **Quantization is not an independent replication:** the five quantizations are computational realizations of the same model and design.
 14. **Token-budget and context truncation:** `-n` and `-c` limits could differentially truncate longer responses in one condition; `finish_reason` logging and the §6.9 cause separation are the mitigation.
-15. **Block-ordered quantization runs:** quantization blocks run sequentially (randomized block order), so quantization is partly confounded with time-of-run; run order within blocks is randomized.
+15. **Block-ordered quantization runs:** quantization blocks run sequentially, so quantization is partly confounded with time-of-run; run order within each block is the same randomized schedule.
 16. **Classifier from the same model family:** the classifier is Qwen3-14B Q8_0, the same family as the generator (and identical to the Q8_0 generation model), so its labels may share biases with the generator. The blinded human gold subsample (§6.7) is the check on this.
 
 ## 11. Execution Sequence
