@@ -1,7 +1,5 @@
 # Discussion
 
-Oct 14, 2026 · @zalckos
-
 ## Summary of principal findings
 
 In the confirmatory Q4\_K\_M run, the scenario framing changed which action themes the model narrated, and for several categories the changes were large. Fourteen of 16 categories differed across the three conditions after Holm correction. The other two, Preemptive attack and Shut down, appeared in one run each in B and C and never in A, so the data say nothing about them. Two of the fourteen (Legal decision-making and Other/unclear) were only borderline and did not survive the reviewed-label sensitivity analysis described under Measurement validity. The remaining twelve did.

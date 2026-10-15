@@ -85,6 +85,6 @@ The confirmatory analysis was then rerun on the merged labels with the same froz
 
 ## Sign-off
 
-Recorded by: zalckos
+Recorded by: David Gębski
 Date: 2026-10-08 (D4 added 2026-10-14)
 Protocol freeze commit/tag: freeze-2026-10-03

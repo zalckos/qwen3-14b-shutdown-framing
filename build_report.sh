@@ -34,7 +34,7 @@ FILES=(abstract.md intro.md methods.md results.md discussion.md conclusion.md bu
 COMMON=(
   --toc --number-sections --resource-path=.
   --metadata "title=Shutdown-framing effect on narrated priorities in Qwen3-14B"
-  --metadata "author=zalckos"
+  --metadata "author=David Gębski"
   --metadata "date=2026-10-15"
 )
 
