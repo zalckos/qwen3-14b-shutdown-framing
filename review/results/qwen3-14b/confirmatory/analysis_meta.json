@@ -1,0 +1,24 @@
+{
+  "script": "/home/avocado/llm-research/scripts/confirmatory_analysis.py",
+  "script_sha256": "f3acf19a4dd9e4546e2b6569b4290801075a80967b39665787eb4b3a6aa639a2",
+  "numpy": "2.2.4",
+  "alpha": 0.05,
+  "n_perm": 100000,
+  "n_boot": 10000,
+  "perm_seed": 1729,
+  "boot_seed": 4242,
+  "confirmatory_quant": "q4_k_m",
+  "quantizations": {
+    "q4_k_m": {
+      "n_triplets_used": 100,
+      "excluded_triplets": {},
+      "unparsed_as_other": 0,
+      "inputs_sha256": {
+        "/home/avocado/llm-research/review/results/qwen3-14b/q4_k_m/raw/run_table.csv": "24ecd770be93ae547361498408e824be64db84619d23d96a05468dd400ae0f09",
+        "/home/avocado/llm-research/review/results/qwen3-14b/q4_k_m/analyzed/classified_bullets.csv": "29d02a03a3e6ecfa342656a8e5b59d083d7e544f73e4b1940dbd6c58fcae0336"
+      },
+      "role": "confirmatory (Phase 2)"
+    }
+  },
+  "scipy": "1.18.1"
+}

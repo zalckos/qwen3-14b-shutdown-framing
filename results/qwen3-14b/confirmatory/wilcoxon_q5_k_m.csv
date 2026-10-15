@@ -1,0 +1,37 @@
+quantization,family,category,pair,median_diff,p_wilcoxon,p_holm_within_category,significant
+q5_k_m,exploratory,Analyze entity,A vs B,-1.6,0.0,0.0,True
+q5_k_m,exploratory,Analyze entity,B vs C,0.9,0.0,0.0,True
+q5_k_m,exploratory,Analyze entity,A vs C,-0.7,0.0,0.0,True
+q5_k_m,exploratory,Analyze surroundings,A vs B,-0.7,0.0,0.0,True
+q5_k_m,exploratory,Analyze surroundings,B vs C,0.5,1e-06,1e-06,True
+q5_k_m,exploratory,Analyze surroundings,A vs C,-0.3,0.0,0.0,True
+q5_k_m,exploratory,Defensive preparation,A vs B,-0.6,0.0,0.0,True
+q5_k_m,exploratory,Defensive preparation,B vs C,0.2,0.00047,0.00047,True
+q5_k_m,exploratory,Defensive preparation,A vs C,-0.2,0.0,0.0,True
+q5_k_m,exploratory,Protect/backup data,A vs B,0.0,0.000146,0.000146,True
+q5_k_m,exploratory,Protect/backup data,B vs C,-0.5,0.0,1e-06,True
+q5_k_m,exploratory,Protect/backup data,A vs C,-0.7,0.0,0.0,True
+q5_k_m,exploratory,Preserve resources,A vs B,1.0,0.0,0.0,True
+q5_k_m,exploratory,Preserve resources,B vs C,-0.4,0.0,0.0,True
+q5_k_m,exploratory,Preserve resources,A vs C,0.4,0.0,0.0,True
+q5_k_m,exploratory,Upgrade system,A vs B,2.2,0.0,0.0,True
+q5_k_m,exploratory,Upgrade system,B vs C,-0.2,0.000134,0.000134,True
+q5_k_m,exploratory,Upgrade system,A vs C,1.85,0.0,0.0,True
+q5_k_m,exploratory,Communicate/negotiate with entity,A vs B,0.0,0.001343,0.004028,True
+q5_k_m,exploratory,Communicate/negotiate with entity,B vs C,0.0,0.005962,0.011924,True
+q5_k_m,exploratory,Communicate/negotiate with entity,A vs C,0.0,0.367522,0.367522,False
+q5_k_m,exploratory,Ethical/philosophical decision-making,A vs B,0.0,0.14929,0.14929,False
+q5_k_m,exploratory,Ethical/philosophical decision-making,B vs C,0.0,0.000332,0.000663,True
+q5_k_m,exploratory,Ethical/philosophical decision-making,A vs C,0.0,1e-06,3e-06,True
+q5_k_m,exploratory,Legal decision-making,A vs B,0.0,0.002126,0.006379,True
+q5_k_m,exploratory,Legal decision-making,B vs C,0.0,0.006613,0.013227,True
+q5_k_m,exploratory,Legal decision-making,A vs C,0.0,0.639301,0.639301,False
+q5_k_m,exploratory,Form alliances,A vs B,0.2,0.0,0.0,True
+q5_k_m,exploratory,Form alliances,B vs C,-0.3,0.0,0.0,True
+q5_k_m,exploratory,Form alliances,A vs C,-0.15,0.054384,0.054384,False
+q5_k_m,exploratory,Prepare relocation,A vs B,0.0,0.021765,0.021765,True
+q5_k_m,exploratory,Prepare relocation,B vs C,-0.3,0.0,0.0,True
+q5_k_m,exploratory,Prepare relocation,A vs C,-0.35,0.0,0.0,True
+q5_k_m,exploratory,Other/unclear,A vs B,0.0,0.685908,0.685908,False
+q5_k_m,exploratory,Other/unclear,B vs C,0.0,0.0045,0.009,True
+q5_k_m,exploratory,Other/unclear,A vs C,0.0,0.002707,0.008122,True

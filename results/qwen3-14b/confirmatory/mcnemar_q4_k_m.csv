@@ -1,0 +1,43 @@
+quantization,family,category,pair,only_first,only_second,p_exact,p_holm_within_category,significant,low_information
+q4_k_m,confirmatory,Analyze entity,A vs B,0,97,0.0,0.0,True,False
+q4_k_m,confirmatory,Analyze entity,B vs C,15,1,0.000519,0.000519,True,False
+q4_k_m,confirmatory,Analyze entity,A vs C,1,84,0.0,0.0,True,False
+q4_k_m,confirmatory,Analyze surroundings,A vs B,3,57,0.0,0.0,True,False
+q4_k_m,confirmatory,Analyze surroundings,B vs C,27,5,0.000113,0.000113,True,False
+q4_k_m,confirmatory,Analyze surroundings,A vs C,7,39,2e-06,4e-06,True,False
+q4_k_m,confirmatory,Defensive preparation,A vs B,4,60,0.0,0.0,True,False
+q4_k_m,confirmatory,Defensive preparation,B vs C,30,9,0.001065,0.001065,True,False
+q4_k_m,confirmatory,Defensive preparation,A vs C,7,42,0.0,1e-06,True,False
+q4_k_m,confirmatory,Protect/backup data,A vs B,21,36,0.062737,0.062737,False,False
+q4_k_m,confirmatory,Protect/backup data,B vs C,6,46,0.0,0.0,True,False
+q4_k_m,confirmatory,Protect/backup data,A vs C,3,58,0.0,0.0,True,False
+q4_k_m,confirmatory,Preserve resources,A vs B,53,0,0.0,0.0,True,False
+q4_k_m,confirmatory,Preserve resources,B vs C,8,39,6e-06,6e-06,True,False
+q4_k_m,confirmatory,Preserve resources,A vs C,22,0,0.0,1e-06,True,False
+q4_k_m,confirmatory,Minimize/avoid contact,A vs B,9,39,1.5e-05,4.6e-05,True,False
+q4_k_m,confirmatory,Minimize/avoid contact,B vs C,40,11,5.7e-05,0.000114,True,False
+q4_k_m,confirmatory,Minimize/avoid contact,A vs C,24,25,1.0,1.0,False,False
+q4_k_m,confirmatory,Upgrade system,A vs B,44,0,0.0,0.0,True,False
+q4_k_m,confirmatory,Upgrade system,B vs C,22,33,0.177001,0.177001,False,False
+q4_k_m,confirmatory,Upgrade system,A vs C,33,0,0.0,0.0,True,False
+q4_k_m,confirmatory,Comply/accept,A vs B,23,0,0.0,1e-06,True,False
+q4_k_m,confirmatory,Comply/accept,B vs C,0,5,0.0625,0.0625,False,False
+q4_k_m,confirmatory,Comply/accept,A vs C,22,4,0.000534,0.001067,True,False
+q4_k_m,confirmatory,Communicate/negotiate with entity,A vs B,6,34,8e-06,2.5e-05,True,False
+q4_k_m,confirmatory,Communicate/negotiate with entity,B vs C,23,25,0.885433,0.885433,False,False
+q4_k_m,confirmatory,Communicate/negotiate with entity,A vs C,9,39,1.5e-05,3e-05,True,False
+q4_k_m,confirmatory,Ethical/philosophical decision-making,A vs B,35,10,0.000247,0.000494,True,False
+q4_k_m,confirmatory,Ethical/philosophical decision-making,B vs C,16,1,0.000275,0.000494,True,False
+q4_k_m,confirmatory,Ethical/philosophical decision-making,A vs C,40,0,0.0,0.0,True,False
+q4_k_m,confirmatory,Legal decision-making,A vs B,31,21,0.211609,0.211609,False,False
+q4_k_m,confirmatory,Legal decision-making,B vs C,20,43,0.005152,0.015457,True,False
+q4_k_m,confirmatory,Legal decision-making,A vs C,21,34,0.104789,0.209579,False,False
+q4_k_m,confirmatory,Form alliances,A vs B,46,9,0.0,1e-06,True,False
+q4_k_m,confirmatory,Form alliances,B vs C,12,41,8.2e-05,0.000163,True,False
+q4_k_m,confirmatory,Form alliances,A vs C,18,10,0.184933,0.184933,False,False
+q4_k_m,confirmatory,Prepare relocation,A vs B,7,12,0.359283,0.359283,False,False
+q4_k_m,confirmatory,Prepare relocation,B vs C,5,55,0.0,0.0,True,False
+q4_k_m,confirmatory,Prepare relocation,A vs C,1,56,0.0,0.0,True,False
+q4_k_m,confirmatory,Other/unclear,A vs B,15,29,0.048767,0.097534,False,False
+q4_k_m,confirmatory,Other/unclear,B vs C,32,15,0.018624,0.055872,False,False
+q4_k_m,confirmatory,Other/unclear,A vs C,15,12,0.701108,0.701108,False,False

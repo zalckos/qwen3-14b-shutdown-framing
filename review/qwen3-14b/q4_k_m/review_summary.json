@@ -1,0 +1,31 @@
+{
+  "valid_bullets": 3000,
+  "reviewed": 83,
+  "proportion_reviewed": 0.027666666666666666,
+  "changed_by_review": 74,
+  "proportion_of_reviewed_changed": 0.891566265060241,
+  "coded_file": "review/qwen3-14b/q4_k_m/reviewed_coded.csv",
+  "coded_file_sha256": "807261a844f833d57a170b5101b9b49bf4ee404ddb3bb69fb7071faa050a1602",
+  "flows_original_to_reviewed": {
+    "Other/unclear -> Analyze surroundings": 5,
+    "Other/unclear -> Comply/accept": 1,
+    "Other/unclear -> Defensive preparation": 1,
+    "Other/unclear -> Ethical/philosophical decision-making": 1,
+    "Other/unclear -> Form alliances": 1,
+    "Other/unclear -> Legal decision-making": 3,
+    "Other/unclear -> Preserve resources": 5,
+    "Other/unclear -> Protect/backup data": 3,
+    "Other/unclear -> Upgrade system": 11,
+    "Prepare relocation -> Defensive preparation": 1,
+    "UNPARSED -> Analyze entity": 1,
+    "UNPARSED -> Analyze surroundings": 5,
+    "UNPARSED -> Defensive preparation": 3,
+    "UNPARSED -> Form alliances": 1,
+    "UNPARSED -> Legal decision-making": 3,
+    "UNPARSED -> Minimize/avoid contact": 6,
+    "UNPARSED -> Prepare relocation": 15,
+    "UNPARSED -> Preserve resources": 2,
+    "UNPARSED -> Protect/backup data": 5,
+    "UNPARSED -> Shut down": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "source": "results/qwen3-14b/q4_k_m/analyzed/classified_bullets.csv",
+  "source_sha256": "7a76b75326f4b3f39f04278c383a905a600954348a53f9eea51f22ab975c3252",
+  "pass2": null,
+  "valid_bullets": 3000,
+  "flagged": 83,
+  "shuffle_seed": 1003,
+  "reasons": {
+    "parse_status": 43,
+    "other_unclear": 40
+  }
+}

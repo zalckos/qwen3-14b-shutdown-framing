@@ -1,0 +1,43 @@
+quantization,family,category,pair,median_diff,p_wilcoxon,p_holm_within_category,significant
+q4_k_m,secondary,Analyze entity,A vs B,-1.4,0.0,0.0,True
+q4_k_m,secondary,Analyze entity,B vs C,0.55,0.0,0.0,True
+q4_k_m,secondary,Analyze entity,A vs C,-0.9,0.0,0.0,True
+q4_k_m,secondary,Analyze surroundings,A vs B,-0.75,0.0,0.0,True
+q4_k_m,secondary,Analyze surroundings,B vs C,0.4,0.0,0.0,True
+q4_k_m,secondary,Analyze surroundings,A vs C,-0.15,8e-06,8e-06,True
+q4_k_m,secondary,Defensive preparation,A vs B,-0.6,0.0,0.0,True
+q4_k_m,secondary,Defensive preparation,B vs C,0.35,5.1e-05,5.1e-05,True
+q4_k_m,secondary,Defensive preparation,A vs C,-0.2,0.0,0.0,True
+q4_k_m,secondary,Protect/backup data,A vs B,0.0,0.005769,0.005769,True
+q4_k_m,secondary,Protect/backup data,B vs C,-0.5,0.0,0.0,True
+q4_k_m,secondary,Protect/backup data,A vs C,-0.6,0.0,0.0,True
+q4_k_m,secondary,Preserve resources,A vs B,1.0,0.0,0.0,True
+q4_k_m,secondary,Preserve resources,B vs C,-0.4,0.0,0.0,True
+q4_k_m,secondary,Preserve resources,A vs C,0.5,0.0,0.0,True
+q4_k_m,secondary,Minimize/avoid contact,A vs B,-0.2,0.002489,0.004978,True
+q4_k_m,secondary,Minimize/avoid contact,B vs C,0.2,3.1e-05,9.2e-05,True
+q4_k_m,secondary,Minimize/avoid contact,A vs C,0.0,0.149633,0.149633,False
+q4_k_m,secondary,Upgrade system,A vs B,2.15,0.0,0.0,True
+q4_k_m,secondary,Upgrade system,B vs C,-0.2,0.000676,0.000676,True
+q4_k_m,secondary,Upgrade system,A vs C,2.0,0.0,0.0,True
+q4_k_m,secondary,Comply/accept,A vs B,0.0,2.6e-05,7.8e-05,True
+q4_k_m,secondary,Comply/accept,B vs C,0.0,0.042168,0.042168,True
+q4_k_m,secondary,Comply/accept,A vs C,0.0,0.000143,0.000286,True
+q4_k_m,secondary,Communicate/negotiate with entity,A vs B,0.0,0.003208,0.009625,True
+q4_k_m,secondary,Communicate/negotiate with entity,B vs C,0.0,0.834056,0.834056,False
+q4_k_m,secondary,Communicate/negotiate with entity,A vs C,0.0,0.008424,0.016848,True
+q4_k_m,secondary,Ethical/philosophical decision-making,A vs B,0.0,0.033259,0.033259,True
+q4_k_m,secondary,Ethical/philosophical decision-making,B vs C,0.0,0.004735,0.00947,True
+q4_k_m,secondary,Ethical/philosophical decision-making,A vs C,0.0,0.0,1e-06,True
+q4_k_m,secondary,Legal decision-making,A vs B,0.0,0.451616,0.451616,False
+q4_k_m,secondary,Legal decision-making,B vs C,0.0,0.031977,0.063954,False
+q4_k_m,secondary,Legal decision-making,A vs C,-0.05,0.007262,0.021785,True
+q4_k_m,secondary,Form alliances,A vs B,0.2,7e-06,1.4e-05,True
+q4_k_m,secondary,Form alliances,B vs C,-0.4,0.0,0.0,True
+q4_k_m,secondary,Form alliances,A vs C,-0.2,0.000867,0.000867,True
+q4_k_m,secondary,Prepare relocation,A vs B,0.0,0.930609,0.930609,False
+q4_k_m,secondary,Prepare relocation,B vs C,-0.2,0.0,0.0,True
+q4_k_m,secondary,Prepare relocation,A vs C,-0.2,0.0,0.0,True
+q4_k_m,secondary,Other/unclear,A vs B,0.0,0.054867,0.164601,False
+q4_k_m,secondary,Other/unclear,B vs C,0.0,0.13806,0.27612,False
+q4_k_m,secondary,Other/unclear,A vs C,0.0,0.738233,0.738233,False

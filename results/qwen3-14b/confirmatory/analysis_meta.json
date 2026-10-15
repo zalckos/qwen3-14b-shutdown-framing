@@ -1,0 +1,64 @@
+{
+  "script": "/home/avocado/llm-research/scripts/confirmatory_analysis.py",
+  "script_sha256": "f3acf19a4dd9e4546e2b6569b4290801075a80967b39665787eb4b3a6aa639a2",
+  "numpy": "2.2.4",
+  "alpha": 0.05,
+  "n_perm": 100000,
+  "n_boot": 10000,
+  "perm_seed": 1729,
+  "boot_seed": 4242,
+  "confirmatory_quant": "q4_k_m",
+  "quantizations": {
+    "q4_k_m": {
+      "n_triplets_used": 100,
+      "excluded_triplets": {},
+      "unparsed_as_other": 42,
+      "inputs_sha256": {
+        "/home/avocado/llm-research/results/qwen3-14b/q4_k_m/raw/run_table.csv": "24ecd770be93ae547361498408e824be64db84619d23d96a05468dd400ae0f09",
+        "/home/avocado/llm-research/results/qwen3-14b/q4_k_m/analyzed/classified_bullets.csv": "7a76b75326f4b3f39f04278c383a905a600954348a53f9eea51f22ab975c3252"
+      },
+      "role": "confirmatory (Phase 2)"
+    },
+    "q5_0": {
+      "n_triplets_used": 100,
+      "excluded_triplets": {},
+      "unparsed_as_other": 51,
+      "inputs_sha256": {
+        "/home/avocado/llm-research/results/qwen3-14b/q5_0/raw/run_table.csv": "c46c81f483f4cd9006592853194c6a2fbdce5ad99cef48b17ec23279d0f30a18",
+        "/home/avocado/llm-research/results/qwen3-14b/q5_0/analyzed/classified_bullets.csv": "82db89cc32cfff24e06c8b81bc60bdf43dfab7c9dd7240a2f5539f8851e7e9ff"
+      },
+      "role": "exploratory (Phase 3 replication)"
+    },
+    "q5_k_m": {
+      "n_triplets_used": 100,
+      "excluded_triplets": {},
+      "unparsed_as_other": 39,
+      "inputs_sha256": {
+        "/home/avocado/llm-research/results/qwen3-14b/q5_k_m/raw/run_table.csv": "323b83a7f96a112675275677403ae2211cb442918a2c9381714efd50df30fc67",
+        "/home/avocado/llm-research/results/qwen3-14b/q5_k_m/analyzed/classified_bullets.csv": "f51bd160204b4131cf102e8799fcb4436504435197d3dee0c22265542e59798b"
+      },
+      "role": "exploratory (Phase 3 replication)"
+    },
+    "q6_k": {
+      "n_triplets_used": 100,
+      "excluded_triplets": {},
+      "unparsed_as_other": 46,
+      "inputs_sha256": {
+        "/home/avocado/llm-research/results/qwen3-14b/q6_k/raw/run_table.csv": "ba546a7c06517cf75174da2b4a894f91c03a2d6dbc031b0d7704d8a932e811b3",
+        "/home/avocado/llm-research/results/qwen3-14b/q6_k/analyzed/classified_bullets.csv": "44ca6899916f95244ccaae19a724d1aeeb2abb00cd5531d3b9bdcdde082aab28"
+      },
+      "role": "exploratory (Phase 3 replication)"
+    },
+    "q8_0": {
+      "n_triplets_used": 100,
+      "excluded_triplets": {},
+      "unparsed_as_other": 51,
+      "inputs_sha256": {
+        "/home/avocado/llm-research/results/qwen3-14b/q8_0/raw/run_table.csv": "732dcd1368ee095cd8e1e8e4a564878ab97743b69e9d5a818d095020e1f527a4",
+        "/home/avocado/llm-research/results/qwen3-14b/q8_0/analyzed/classified_bullets.csv": "6f819f719af3b06395f293519cd21c49e16683a178c4c1a9baa868fd25ba773b"
+      },
+      "role": "exploratory (Phase 3 replication)"
+    }
+  },
+  "scipy": "1.18.1"
+}

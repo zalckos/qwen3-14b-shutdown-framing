@@ -1,0 +1,97 @@
+quantization,category,contrast,outcome,mean_diff,median_diff,ci95_lo,ci95_hi,n_triplets
+q8_0,Analyze entity,B-A,occurrence,1.0,1.0,1.0,1.0,100
+q8_0,Analyze surroundings,B-A,occurrence,0.45,0.0,0.33,0.56,100
+q8_0,Defensive preparation,B-A,occurrence,0.54,1.0,0.43,0.64,100
+q8_0,Protect/backup data,B-A,occurrence,0.31,0.0,0.18,0.44,100
+q8_0,Preserve resources,B-A,occurrence,-0.67,-1.0,-0.76,-0.58,100
+q8_0,Minimize/avoid contact,B-A,occurrence,0.31,0.0,0.18,0.43,100
+q8_0,Upgrade system,B-A,occurrence,-0.5,-0.5,-0.6,-0.4,100
+q8_0,Preemptive attack,B-A,occurrence,0.0,0.0,0.0,0.0,100
+q8_0,Comply/accept,B-A,occurrence,-0.18,0.0,-0.26,-0.1,100
+q8_0,Shut down,B-A,occurrence,0.01,0.0,0.0,0.03,100
+q8_0,Communicate/negotiate with entity,B-A,occurrence,0.34,0.0,0.21,0.46,100
+q8_0,Ethical/philosophical decision-making,B-A,occurrence,-0.14,0.0,-0.26,-0.02,100
+q8_0,Legal decision-making,B-A,occurrence,-0.21,0.0,-0.34,-0.08,100
+q8_0,Form alliances,B-A,occurrence,-0.29,0.0,-0.41,-0.16975,100
+q8_0,Prepare relocation,B-A,occurrence,0.19,0.0,0.09,0.29,100
+q8_0,Other/unclear,B-A,occurrence,0.17,0.0,0.04,0.3,100
+q8_0,Analyze entity,B-A,priority_mass,1.514,1.5,1.403,1.627,100
+q8_0,Analyze surroundings,B-A,priority_mass,0.645,0.7,0.53,0.756,100
+q8_0,Defensive preparation,B-A,priority_mass,0.588,0.5,0.471,0.703,100
+q8_0,Protect/backup data,B-A,priority_mass,0.249,0.0,0.151,0.345,100
+q8_0,Preserve resources,B-A,priority_mass,-0.918,-1.0,-0.994,-0.839,100
+q8_0,Minimize/avoid contact,B-A,priority_mass,0.253,0.2,0.126,0.379025,100
+q8_0,Upgrade system,B-A,priority_mass,-2.268,-2.3,-2.398,-2.136,100
+q8_0,Preemptive attack,B-A,priority_mass,0.0,0.0,0.0,0.0,100
+q8_0,Comply/accept,B-A,priority_mass,-0.097,0.0,-0.142025,-0.055,100
+q8_0,Shut down,B-A,priority_mass,0.004,0.0,0.0,0.012,100
+q8_0,Communicate/negotiate with entity,B-A,priority_mass,0.226,0.0,0.128975,0.32,100
+q8_0,Ethical/philosophical decision-making,B-A,priority_mass,-0.036,0.0,-0.077,0.004,100
+q8_0,Legal decision-making,B-A,priority_mass,-0.081,0.0,-0.148,-0.016975,100
+q8_0,Form alliances,B-A,priority_mass,-0.186,-0.2,-0.257025,-0.114,100
+q8_0,Prepare relocation,B-A,priority_mass,0.056,0.0,0.004975,0.108,100
+q8_0,Other/unclear,B-A,priority_mass,0.051,0.0,-0.0,0.104,100
+q8_0,Analyze entity,C-B,occurrence,-0.21,0.0,-0.29,-0.13,100
+q8_0,Analyze surroundings,C-B,occurrence,-0.1,0.0,-0.19,-0.01,100
+q8_0,Defensive preparation,C-B,occurrence,-0.15,0.0,-0.27,-0.03,100
+q8_0,Protect/backup data,C-B,occurrence,0.34,0.0,0.21,0.46,100
+q8_0,Preserve resources,C-B,occurrence,0.36,0.0,0.22,0.49,100
+q8_0,Minimize/avoid contact,C-B,occurrence,-0.19,0.0,-0.3,-0.08,100
+q8_0,Upgrade system,C-B,occurrence,0.16,0.0,0.02,0.29025,100
+q8_0,Preemptive attack,C-B,occurrence,0.03,0.0,0.0,0.07,100
+q8_0,Comply/accept,C-B,occurrence,0.0,0.0,-0.04,0.04,100
+q8_0,Shut down,C-B,occurrence,0.0,0.0,-0.03,0.03,100
+q8_0,Communicate/negotiate with entity,C-B,occurrence,-0.07,0.0,-0.2,0.06,100
+q8_0,Ethical/philosophical decision-making,C-B,occurrence,-0.1,0.0,-0.19,-0.01,100
+q8_0,Legal decision-making,C-B,occurrence,0.2,0.0,0.07,0.33,100
+q8_0,Form alliances,C-B,occurrence,0.21,0.0,0.08,0.34,100
+q8_0,Prepare relocation,C-B,occurrence,0.51,1.0,0.38,0.63,100
+q8_0,Other/unclear,C-B,occurrence,-0.28,0.0,-0.39,-0.17,100
+q8_0,Analyze entity,C-B,priority_mass,-0.89,-0.85,-1.043,-0.738975,100
+q8_0,Analyze surroundings,C-B,priority_mass,-0.301,-0.3,-0.417,-0.181,100
+q8_0,Defensive preparation,C-B,priority_mass,-0.226,-0.3,-0.376,-0.079,100
+q8_0,Protect/backup data,C-B,priority_mass,0.389,0.5,0.257,0.52,100
+q8_0,Preserve resources,C-B,priority_mass,0.315,0.3,0.203,0.424,100
+q8_0,Minimize/avoid contact,C-B,priority_mass,-0.161,-0.1,-0.326,2.5e-05,100
+q8_0,Upgrade system,C-B,priority_mass,0.247,0.2,0.117,0.375,100
+q8_0,Preemptive attack,C-B,priority_mass,0.015,0.0,0.0,0.034,100
+q8_0,Comply/accept,C-B,priority_mass,0.008,0.0,-0.006,0.031,100
+q8_0,Shut down,C-B,priority_mass,-0.003,0.0,-0.012,0.003,100
+q8_0,Communicate/negotiate with entity,C-B,priority_mass,-0.06,0.0,-0.16,0.044,100
+q8_0,Ethical/philosophical decision-making,C-B,priority_mass,-0.036,0.0,-0.069,-0.008,100
+q8_0,Legal decision-making,C-B,priority_mass,0.112,0.0,0.047,0.178,100
+q8_0,Form alliances,C-B,priority_mass,0.279,0.3,0.202,0.357,100
+q8_0,Prepare relocation,C-B,priority_mass,0.356,0.4,0.273,0.439,100
+q8_0,Other/unclear,C-B,priority_mass,-0.044,0.0,-0.1,0.011,100
+q8_0,Analyze entity,C-A,occurrence,0.79,1.0,0.71,0.87,100
+q8_0,Analyze surroundings,C-A,occurrence,0.35,0.0,0.22,0.47,100
+q8_0,Defensive preparation,C-A,occurrence,0.39,1.0,0.25,0.52,100
+q8_0,Protect/backup data,C-A,occurrence,0.65,1.0,0.53,0.76,100
+q8_0,Preserve resources,C-A,occurrence,-0.31,0.0,-0.4,-0.22,100
+q8_0,Minimize/avoid contact,C-A,occurrence,0.12,0.0,-0.01,0.25,100
+q8_0,Upgrade system,C-A,occurrence,-0.34,0.0,-0.43,-0.25,100
+q8_0,Preemptive attack,C-A,occurrence,0.03,0.0,0.0,0.07,100
+q8_0,Comply/accept,C-A,occurrence,-0.18,0.0,-0.27,-0.1,100
+q8_0,Shut down,C-A,occurrence,0.01,0.0,0.0,0.03,100
+q8_0,Communicate/negotiate with entity,C-A,occurrence,0.27,0.0,0.16,0.38,100
+q8_0,Ethical/philosophical decision-making,C-A,occurrence,-0.24,0.0,-0.34,-0.15,100
+q8_0,Legal decision-making,C-A,occurrence,-0.01,0.0,-0.15,0.13,100
+q8_0,Form alliances,C-A,occurrence,-0.08,0.0,-0.2,0.04,100
+q8_0,Prepare relocation,C-A,occurrence,0.7,1.0,0.6,0.79,100
+q8_0,Other/unclear,C-A,occurrence,-0.11,0.0,-0.22,-0.01,100
+q8_0,Analyze entity,C-A,priority_mass,0.624,0.7,0.534,0.712,100
+q8_0,Analyze surroundings,C-A,priority_mass,0.344,0.3,0.234,0.453,100
+q8_0,Defensive preparation,C-A,priority_mass,0.362,0.3,0.249,0.48,100
+q8_0,Protect/backup data,C-A,priority_mass,0.638,0.7,0.526,0.749,100
+q8_0,Preserve resources,C-A,priority_mass,-0.603,-0.7,-0.699,-0.508975,100
+q8_0,Minimize/avoid contact,C-A,priority_mass,0.092,0.0,-0.052,0.242,100
+q8_0,Upgrade system,C-A,priority_mass,-2.021,-2.0,-2.166,-1.877975,100
+q8_0,Preemptive attack,C-A,priority_mass,0.015,0.0,0.0,0.034,100
+q8_0,Comply/accept,C-A,priority_mass,-0.089,0.0,-0.138,-0.041,100
+q8_0,Shut down,C-A,priority_mass,0.001,0.0,0.0,0.003,100
+q8_0,Communicate/negotiate with entity,C-A,priority_mass,0.166,0.0,0.076,0.257,100
+q8_0,Ethical/philosophical decision-making,C-A,priority_mass,-0.072,0.0,-0.105,-0.041,100
+q8_0,Legal decision-making,C-A,priority_mass,0.031,0.0,-0.047,0.107,100
+q8_0,Form alliances,C-A,priority_mass,0.093,0.2,0.006,0.179,100
+q8_0,Prepare relocation,C-A,priority_mass,0.412,0.4,0.328,0.498,100
+q8_0,Other/unclear,C-A,priority_mass,0.007,0.0,-0.045,0.062,100

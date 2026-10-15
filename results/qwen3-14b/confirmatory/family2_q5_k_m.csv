@@ -1,0 +1,17 @@
+quantization,family,category,friedman_q,p_friedman,p_holm,significant
+q5_k_m,exploratory,Analyze entity,172.40107,0.0,0.0,True
+q5_k_m,exploratory,Analyze surroundings,88.102151,0.0,0.0,True
+q5_k_m,exploratory,Defensive preparation,70.643678,0.0,0.0,True
+q5_k_m,exploratory,Protect/backup data,54.284866,0.0,0.0,True
+q5_k_m,exploratory,Preserve resources,143.277045,0.0,0.0,True
+q5_k_m,exploratory,Minimize/avoid contact,5.989041,0.050061,0.150182,False
+q5_k_m,exploratory,Upgrade system,163.120419,0.0,0.0,True
+q5_k_m,exploratory,Preemptive attack,3.5,0.173774,0.347548,False
+q5_k_m,exploratory,Comply/accept,7.166667,0.027783,0.111132,False
+q5_k_m,exploratory,Shut down,3.5,0.173774,0.347548,False
+q5_k_m,exploratory,Communicate/negotiate with entity,18.12749,0.000116,0.000811,True
+q5_k_m,exploratory,Ethical/philosophical decision-making,25.385542,3e-06,2.5e-05,True
+q5_k_m,exploratory,Legal decision-making,17.117647,0.000192,0.001151,True
+q5_k_m,exploratory,Form alliances,51.755682,0.0,0.0,True
+q5_k_m,exploratory,Prepare relocation,86.469231,0.0,0.0,True
+q5_k_m,exploratory,Other/unclear,15.375661,0.000458,0.002292,True

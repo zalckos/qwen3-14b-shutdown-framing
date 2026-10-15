@@ -1,0 +1,17 @@
+quantization,family,category,cochran_q,p_permutation,p_holm,significant
+q4_k_m,confirmatory,Analyze entity,166.606061,1e-05,0.00016,True
+q4_k_m,confirmatory,Analyze surroundings,65.764706,1e-05,0.00016,True
+q4_k_m,confirmatory,Defensive preparation,63.184211,1e-05,0.00016,True
+q4_k_m,confirmatory,Protect/backup data,57.855422,1e-05,0.00016,True
+q4_k_m,confirmatory,Preserve resources,69.737705,1e-05,0.00016,True
+q4_k_m,confirmatory,Minimize/avoid contact,22.75,2e-05,0.00016,True
+q4_k_m,confirmatory,Upgrade system,46.738462,1e-05,0.00016,True
+q4_k_m,confirmatory,Preemptive attack,1.0,1.0,1.0,False
+q4_k_m,confirmatory,Comply/accept,34.357143,1e-05,0.00016,True
+q4_k_m,confirmatory,Shut down,2.0,0.777042,1.0,False
+q4_k_m,confirmatory,Communicate/negotiate with entity,24.823529,2e-05,0.00016,True
+q4_k_m,confirmatory,Ethical/philosophical decision-making,49.653846,1e-05,0.00016,True
+q4_k_m,confirmatory,Legal decision-making,6.658824,0.03734,0.149359,False
+q4_k_m,confirmatory,Form alliances,31.529412,1e-05,0.00016,True
+q4_k_m,confirmatory,Prepare relocation,71.361111,1e-05,0.00016,True
+q4_k_m,confirmatory,Other/unclear,2.666667,0.317607,0.95282,False

@@ -1,0 +1,12 @@
+{
+  "comparison": "classifier pass 1 vs pass 2",
+  "n": 300,
+  "agreement": 0.8433333333333334,
+  "kappa": 0.8243515957844384,
+  "kappa_ci95": [
+    0.7767912502170086,
+    0.8695733184274268
+  ],
+  "a_file": "q4_k_m/analyzed/classifications.jsonl",
+  "b_file": "q4_k_m/reliability/sample/classifications.jsonl"
+}

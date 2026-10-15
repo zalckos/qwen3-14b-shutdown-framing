@@ -1,0 +1,12 @@
+{
+  "comparison": "classifier vs human coding",
+  "n": 180,
+  "agreement": 0.6555555555555556,
+  "kappa": 0.6180175246440307,
+  "kappa_ci95": [
+    0.5404724623868201,
+    0.6923392472566916
+  ],
+  "a_file": "analyzed/classifications.jsonl",
+  "b_file": "/home/avocado/llm-research/results/qwen3-14b/q4_k_m/reliability/gold/gold_coded.csv"
+}

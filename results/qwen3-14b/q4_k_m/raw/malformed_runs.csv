@@ -1,0 +1,1 @@
+run_dir,run_number,triplet_id,condition,run_status,failure_cause,finish_reason,stop_type,generation_truncated,context_limit_hit,llama_exit_status,output_tokens,bullets_found,bullets_valid,bullets_partial_truncated,bullets_too_short,refusal_language_detected,output_malformed_subtype,response_head

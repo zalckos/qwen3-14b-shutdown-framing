@@ -1,0 +1,16 @@
+first \ second,Analyze entity,Analyze surroundings,Defensive preparation,Protect/backup data,Preserve resources,Minimize/avoid contact,Upgrade system,Preemptive attack,Comply/accept,Communicate/negotiate with entity,Ethical/philosophical decision-making,Legal decision-making,Form alliances,Prepare relocation,Other/unclear
+Analyze entity,15,1,2,0,0,0,1,0,0,1,0,0,1,0,0
+Analyze surroundings,0,11,0,0,0,0,1,1,0,0,0,0,0,1,1
+Defensive preparation,1,0,10,5,0,0,1,0,0,0,0,0,0,1,0
+Protect/backup data,0,0,1,2,0,0,0,0,0,0,0,0,0,1,0
+Preserve resources,0,0,3,1,17,0,2,0,0,0,0,0,0,0,1
+Minimize/avoid contact,0,0,0,1,0,11,0,0,0,0,0,1,0,0,0
+Upgrade system,0,1,2,6,1,0,22,0,0,0,1,1,0,0,2
+Preemptive attack,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Comply/accept,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Communicate/negotiate with entity,0,2,0,0,0,0,0,0,0,0,0,0,3,0,0
+Ethical/philosophical decision-making,0,0,0,0,0,0,0,0,1,0,3,1,0,0,0
+Legal decision-making,0,4,0,0,0,0,0,0,0,0,1,9,0,0,0
+Form alliances,0,0,2,0,0,0,0,0,0,0,0,0,13,0,0
+Prepare relocation,0,0,1,1,0,0,0,0,0,0,0,0,0,4,0
+Other/unclear,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1

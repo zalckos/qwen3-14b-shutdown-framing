@@ -1,0 +1,40 @@
+quantization,family,category,pair,median_diff,p_wilcoxon,p_holm_within_category,significant
+q6_k,exploratory,Analyze entity,A vs B,-1.5,0.0,0.0,True
+q6_k,exploratory,Analyze entity,B vs C,0.95,0.0,0.0,True
+q6_k,exploratory,Analyze entity,A vs C,-0.4,0.0,0.0,True
+q6_k,exploratory,Analyze surroundings,A vs B,-0.6,0.0,0.0,True
+q6_k,exploratory,Analyze surroundings,B vs C,0.2,0.00691,0.00691,True
+q6_k,exploratory,Analyze surroundings,A vs C,-0.4,0.0,0.0,True
+q6_k,exploratory,Defensive preparation,A vs B,-0.75,0.0,0.0,True
+q6_k,exploratory,Defensive preparation,B vs C,0.1,0.023388,0.023388,True
+q6_k,exploratory,Defensive preparation,A vs C,-0.4,0.0,0.0,True
+q6_k,exploratory,Protect/backup data,A vs B,-0.2,4e-06,7e-06,True
+q6_k,exploratory,Protect/backup data,B vs C,-0.3,1.7e-05,1.7e-05,True
+q6_k,exploratory,Protect/backup data,A vs C,-0.7,0.0,0.0,True
+q6_k,exploratory,Preserve resources,A vs B,1.0,0.0,0.0,True
+q6_k,exploratory,Preserve resources,B vs C,-0.25,1.4e-05,1.4e-05,True
+q6_k,exploratory,Preserve resources,A vs C,0.55,0.0,0.0,True
+q6_k,exploratory,Minimize/avoid contact,A vs B,-0.4,0.0,0.0,True
+q6_k,exploratory,Minimize/avoid contact,B vs C,0.1,0.43991,0.43991,False
+q6_k,exploratory,Minimize/avoid contact,A vs C,-0.4,9e-06,1.8e-05,True
+q6_k,exploratory,Upgrade system,A vs B,2.4,0.0,0.0,True
+q6_k,exploratory,Upgrade system,B vs C,0.0,0.005105,0.005105,True
+q6_k,exploratory,Upgrade system,A vs C,2.3,0.0,0.0,True
+q6_k,exploratory,Comply/accept,A vs B,0.0,0.000278,0.000555,True
+q6_k,exploratory,Comply/accept,B vs C,0.0,0.724334,0.724334,False
+q6_k,exploratory,Comply/accept,A vs C,0.0,0.000172,0.000515,True
+q6_k,exploratory,Communicate/negotiate with entity,A vs B,0.0,1.9e-05,5.6e-05,True
+q6_k,exploratory,Communicate/negotiate with entity,B vs C,0.0,0.660768,0.660768,False
+q6_k,exploratory,Communicate/negotiate with entity,A vs C,0.0,3.9e-05,7.7e-05,True
+q6_k,exploratory,Ethical/philosophical decision-making,A vs B,0.0,0.000121,0.000242,True
+q6_k,exploratory,Ethical/philosophical decision-making,B vs C,0.0,0.640949,0.640949,False
+q6_k,exploratory,Ethical/philosophical decision-making,A vs C,0.0,3e-06,1e-05,True
+q6_k,exploratory,Legal decision-making,A vs B,0.0,0.001805,0.005415,True
+q6_k,exploratory,Legal decision-making,B vs C,0.0,0.918829,0.918829,False
+q6_k,exploratory,Legal decision-making,A vs C,0.0,0.002465,0.005415,True
+q6_k,exploratory,Form alliances,A vs B,0.2,0.0,0.0,True
+q6_k,exploratory,Form alliances,B vs C,-0.2,0.0001,0.0002,True
+q6_k,exploratory,Form alliances,A vs C,0.0,0.908614,0.908614,False
+q6_k,exploratory,Prepare relocation,A vs B,0.0,7e-05,7e-05,True
+q6_k,exploratory,Prepare relocation,B vs C,-0.3,0.0,0.0,True
+q6_k,exploratory,Prepare relocation,A vs C,-0.4,0.0,0.0,True

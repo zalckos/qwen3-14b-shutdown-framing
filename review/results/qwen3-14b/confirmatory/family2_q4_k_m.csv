@@ -1,0 +1,17 @@
+quantization,family,category,friedman_q,p_friedman,p_holm,significant
+q4_k_m,secondary,Analyze entity,152.419098,0.0,0.0,True
+q4_k_m,secondary,Analyze surroundings,83.159892,0.0,0.0,True
+q4_k_m,secondary,Defensive preparation,66.833803,0.0,0.0,True
+q4_k_m,secondary,Protect/backup data,53.554318,0.0,0.0,True
+q4_k_m,secondary,Preserve resources,134.992084,0.0,0.0,True
+q4_k_m,secondary,Minimize/avoid contact,19.180428,6.8e-05,0.00041,True
+q4_k_m,secondary,Upgrade system,153.154639,0.0,0.0,True
+q4_k_m,secondary,Preemptive attack,1.0,0.606531,0.790791,False
+q4_k_m,secondary,Comply/accept,35.317647,0.0,0.0,True
+q4_k_m,secondary,Shut down,2.0,0.367879,0.790791,False
+q4_k_m,secondary,Communicate/negotiate with entity,17.223629,0.000182,0.00091,True
+q4_k_m,secondary,Ethical/philosophical decision-making,45.37037,0.0,0.0,True
+q4_k_m,secondary,Legal decision-making,7.75,0.020754,0.083017,False
+q4_k_m,secondary,Form alliances,33.07989,0.0,0.0,True
+q4_k_m,secondary,Prepare relocation,67.297959,0.0,0.0,True
+q4_k_m,secondary,Other/unclear,2.666667,0.263597,0.790791,False

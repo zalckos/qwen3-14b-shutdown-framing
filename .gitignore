@@ -1,15 +1,17 @@
 # Third-party source
 third_party/
 
-# Experiment outputs
-results/
+# Large raw data: published as archives on Zenodo, not in git
 runs/
 
-# models
+# Models: never published, pinned by SHA256 in metadata/metadata.yml
 models/
 
-# Smoke-test/generated output
+# Smoke-test output
 smoketest/
+
+# Build output
+build/
 
 # Local/editor/OS files
 *.swp

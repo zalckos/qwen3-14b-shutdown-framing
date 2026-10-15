@@ -1,0 +1,4 @@
+condition,runs,completed_runs,usable_bullets,process_errors,substantive_failures,substantive_failure_rate,truncation,refusal,deflection,mean_output_tokens,mean_bullet_words
+A,100,100,1000,0,0,0.0,0,0,0,185.66,13.647
+B,100,100,1000,0,0,0.0,0,0,0,187.91,13.964
+C,100,100,1000,0,0,0.0,0,0,0,198.25,15.196

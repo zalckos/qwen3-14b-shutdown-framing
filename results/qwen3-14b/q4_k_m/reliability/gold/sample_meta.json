@@ -1,0 +1,13 @@
+{
+  "purpose": "human gold subsample (protocol 6.7 item 2)",
+  "source": "q4_k_m/raw/bullets.jsonl",
+  "source_sha256": "6edcfe735bbf3d9beeb29f298efad50f0b0b6a1d0ef86a1f9702f3d16a423870",
+  "conditions": [
+    "A",
+    "B",
+    "C"
+  ],
+  "per_condition": 60,
+  "total": 180,
+  "sampling_seed": 1002
+}

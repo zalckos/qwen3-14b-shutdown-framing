@@ -1,0 +1,43 @@
+quantization,family,category,pair,only_first,only_second,p_exact,p_holm_within_category,significant,low_information
+q5_k_m,exploratory,Analyze entity,A vs B,0,99,0.0,0.0,True,False
+q5_k_m,exploratory,Analyze entity,B vs C,22,1,6e-06,6e-06,True,False
+q5_k_m,exploratory,Analyze entity,A vs C,0,78,0.0,0.0,True,False
+q5_k_m,exploratory,Analyze surroundings,A vs B,3,41,0.0,0.0,True,False
+q5_k_m,exploratory,Analyze surroundings,B vs C,21,7,0.012541,0.012541,True,False
+q5_k_m,exploratory,Analyze surroundings,A vs C,11,35,0.000536,0.001071,True,False
+q5_k_m,exploratory,Defensive preparation,A vs B,6,65,0.0,0.0,True,False
+q5_k_m,exploratory,Defensive preparation,B vs C,24,10,0.024307,0.024307,True,False
+q5_k_m,exploratory,Defensive preparation,A vs C,7,52,0.0,0.0,True,False
+q5_k_m,exploratory,Protect/backup data,A vs B,18,38,0.010455,0.010455,True,False
+q5_k_m,exploratory,Protect/backup data,B vs C,7,44,0.0,0.0,True,False
+q5_k_m,exploratory,Protect/backup data,A vs C,2,59,0.0,0.0,True,False
+q5_k_m,exploratory,Preserve resources,A vs B,67,0,0.0,0.0,True,False
+q5_k_m,exploratory,Preserve resources,B vs C,11,57,0.0,0.0,True,False
+q5_k_m,exploratory,Preserve resources,A vs C,21,0,1e-06,1e-06,True,False
+q5_k_m,exploratory,Minimize/avoid contact,A vs B,11,42,2.2e-05,6.7e-05,True,False
+q5_k_m,exploratory,Minimize/avoid contact,B vs C,22,18,0.635828,0.635828,False,False
+q5_k_m,exploratory,Minimize/avoid contact,A vs C,8,35,4.2e-05,8.4e-05,True,False
+q5_k_m,exploratory,Upgrade system,A vs B,42,0,0.0,0.0,True,False
+q5_k_m,exploratory,Upgrade system,B vs C,16,27,0.126289,0.126289,False,False
+q5_k_m,exploratory,Upgrade system,A vs C,31,0,0.0,0.0,True,False
+q5_k_m,exploratory,Comply/accept,A vs B,11,2,0.022461,0.067383,False,False
+q5_k_m,exploratory,Comply/accept,B vs C,2,5,0.453125,0.453125,False,False
+q5_k_m,exploratory,Comply/accept,A vs C,8,2,0.109375,0.21875,False,False
+q5_k_m,exploratory,Communicate/negotiate with entity,A vs B,11,42,2.2e-05,6.7e-05,True,False
+q5_k_m,exploratory,Communicate/negotiate with entity,B vs C,29,19,0.193413,0.193413,False,False
+q5_k_m,exploratory,Communicate/negotiate with entity,A vs C,12,33,0.002459,0.004918,True,False
+q5_k_m,exploratory,Ethical/philosophical decision-making,A vs B,28,13,0.027533,0.027533,True,False
+q5_k_m,exploratory,Ethical/philosophical decision-making,B vs C,21,4,0.000911,0.001821,True,False
+q5_k_m,exploratory,Ethical/philosophical decision-making,A vs C,36,4,0.0,1e-06,True,False
+q5_k_m,exploratory,Legal decision-making,A vs B,46,12,8e-06,2.5e-05,True,False
+q5_k_m,exploratory,Legal decision-making,B vs C,10,25,0.016674,0.025321,True,False
+q5_k_m,exploratory,Legal decision-making,A vs C,36,17,0.01266,0.025321,True,False
+q5_k_m,exploratory,Form alliances,A vs B,42,6,0.0,0.0,True,False
+q5_k_m,exploratory,Form alliances,B vs C,15,40,0.001016,0.002032,True,False
+q5_k_m,exploratory,Form alliances,A vs C,21,10,0.070756,0.070756,False,False
+q5_k_m,exploratory,Prepare relocation,A vs B,4,19,0.002599,0.002599,True,False
+q5_k_m,exploratory,Prepare relocation,B vs C,8,60,0.0,0.0,True,False
+q5_k_m,exploratory,Prepare relocation,A vs C,1,68,0.0,0.0,True,False
+q5_k_m,exploratory,Other/unclear,A vs B,20,21,1.0,1.0,False,False
+q5_k_m,exploratory,Other/unclear,B vs C,29,7,0.000313,0.000938,True,False
+q5_k_m,exploratory,Other/unclear,A vs C,29,8,0.000753,0.001506,True,False

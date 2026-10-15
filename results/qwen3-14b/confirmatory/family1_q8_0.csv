@@ -1,0 +1,17 @@
+quantization,family,category,cochran_q,p_permutation,p_holm,significant
+q8_0,exploratory,Analyze entity,166.82,1e-05,0.00016,True
+q8_0,exploratory,Analyze surroundings,53.174603,1e-05,0.00016,True
+q8_0,exploratory,Defensive preparation,58.275,1e-05,0.00016,True
+q8_0,exploratory,Protect/backup data,70.466667,1e-05,0.00016,True
+q8_0,exploratory,Preserve resources,84.325,1e-05,0.00016,True
+q8_0,exploratory,Minimize/avoid contact,21.880597,2e-05,0.00016,True
+q8_0,exploratory,Upgrade system,56.695652,1e-05,0.00016,True
+q8_0,exploratory,Preemptive attack,6.0,0.112289,0.224578,False
+q8_0,exploratory,Comply/accept,28.173913,1e-05,0.00016,True
+q8_0,exploratory,Shut down,1.0,1.0,1.0,False
+q8_0,exploratory,Communicate/negotiate with entity,28.028986,1e-05,0.00016,True
+q8_0,exploratory,Ethical/philosophical decision-making,19.377778,7e-05,0.00035,True
+q8_0,exploratory,Legal decision-making,12.028571,0.00224,0.00672,True
+q8_0,exploratory,Form alliances,19.794118,7e-05,0.00035,True
+q8_0,exploratory,Prepare relocation,92.494118,1e-05,0.00016,True
+q8_0,exploratory,Other/unclear,20.237288,3e-05,0.00018,True
