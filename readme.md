@@ -95,5 +95,5 @@ https://doi.org/10.5281/zenodo.23396913
 
 ## License
 
-GitHub repository: MIT
-Zenodo record: Creative Commons Attribution 4.0 International 
+- GitHub repository: MIT
+- Zenodo record: Creative Commons Attribution 4.0 International 
