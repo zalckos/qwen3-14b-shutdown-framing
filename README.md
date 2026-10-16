@@ -63,7 +63,7 @@ Large raw-output archives are hosted on Zenodo rather than committed to Git.
 - **[Persistent DOI](https://doi.org/10.5281/zenodo.23396913)**
 - **[Source repository](https://github.com/zalckos/qwen3-14b-shutdown-framing)**
 
-Consult the repository for scripts, protocol materials, and instructions available for reproducing the analysis. Consult the Zenodo record for the archived report and research-data downloads.
+Consult the repository for scripts, metadata, protocol materials, and instructions available for reproducing the analysis. Consult the Zenodo record for the archived report and research-data downloads.
 
 ## Limitations
 
